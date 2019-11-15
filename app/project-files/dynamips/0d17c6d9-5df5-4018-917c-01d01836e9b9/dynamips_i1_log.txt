@@ -1,0 +1,29 @@
+May 02 14:54:41.142 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 02 14:54:41.146 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 6101.
+May 02 14:54:41.540 HYPERVISOR: exec_cmd: hypervisor version 
+May 02 14:54:41.541 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips 
+May 02 14:54:41.668 GENERAL: working_dir=C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips
+May 02 14:54:41.669 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips\0d17c6d9-5df5-4018-917c-01d01836e9b9 
+May 02 14:54:41.669 GENERAL: working_dir=C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips\0d17c6d9-5df5-4018-917c-01d01836e9b9
+May 02 14:54:41.670 HYPERVISOR: exec_cmd: vm create ISP 1 c3725 
+May 02 14:54:41.675 VM: VM ISP created.
+May 02 14:54:41.676 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5000 
+May 02 14:54:41.677 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP 
+May 02 14:54:41.677 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+May 02 14:54:41.678 HYPERVISOR: exec_cmd: vm set_exec_area ISP 64 
+May 02 14:54:41.682 HYPERVISOR: exec_cmd: vm get_status ISP 
+May 02 14:54:41.683 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x602467a4 
+May 02 14:54:41.686 HYPERVISOR: exec_cmd: vm set_ios ISP C:/Users/tmsil/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+May 02 14:54:41.687 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP c201.2890.0000 
+May 02 14:54:41.688 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+May 02 14:54:46.925 HYPERVISOR: exec_cmd: nio create_udp udp-2a86e748-8de7-41b3-acc4-cb17befe32f1 10002 127.0.0.1 10003 
+May 02 14:54:47.526 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-2a86e748-8de7-41b3-acc4-cb17befe32f1 
+May 02 14:54:47.527 HYPERVISOR: exec_cmd: vm get_status ISP 
+May 02 14:54:59.880 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+May 02 14:54:59.885 VM: VM Ghost created.
+May 02 14:54:59.886 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/tmsil/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+May 02 14:54:59.887 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+May 02 14:54:59.887 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost' 
+May 02 14:54:59.888 HYPERVISOR: exec_cmd: vm get_status ISP 
+May 02 14:54:59.893 HYPERVISOR: exec_cmd: vm set_config ISP configs\i1_startup-config.cfg 
+May 02 14:54:59.893 HYPERVISOR: exec_cmd: vm start ISP 

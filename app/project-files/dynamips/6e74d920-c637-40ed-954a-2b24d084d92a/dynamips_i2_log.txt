@@ -1,0 +1,10 @@
+Apr 30 14:10:37.688 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 30 14:10:37.688 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 7562.
+Apr 30 14:10:38.157 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 30 14:10:38.157 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips 
+Apr 30 14:10:38.157 GENERAL: working_dir=C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips
+Apr 30 14:10:38.157 HYPERVISOR: exec_cmd: ethsw create Distri 
+Apr 30 14:10:38.189 HYPERVISOR: exec_cmd: ethsw delete Distri 
+Apr 30 14:10:38.189 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 30 14:10:38.673 HYPERVISOR: Stopped.
+Apr 30 14:10:38.673 GENERAL: reset done.

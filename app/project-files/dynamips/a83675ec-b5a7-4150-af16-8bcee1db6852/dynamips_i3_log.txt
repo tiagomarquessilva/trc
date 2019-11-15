@@ -1,0 +1,25 @@
+Apr 30 14:10:47.494 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 30 14:10:47.494 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 7576.
+Apr 30 14:10:47.916 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 30 14:10:47.916 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips 
+Apr 30 14:10:48.244 GENERAL: working_dir=C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips
+Apr 30 14:10:48.244 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips\0d17c6d9-5df5-4018-917c-01d01836e9b9 
+Apr 30 14:10:48.244 GENERAL: working_dir=C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips\0d17c6d9-5df5-4018-917c-01d01836e9b9
+Apr 30 14:10:48.244 HYPERVISOR: exec_cmd: vm create ISP 1 c3725 
+Apr 30 14:10:48.244 VM: VM ISP created.
+Apr 30 14:10:48.260 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5000 
+Apr 30 14:10:48.260 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP 
+Apr 30 14:10:48.260 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Apr 30 14:10:48.260 HYPERVISOR: exec_cmd: vm set_exec_area ISP 64 
+Apr 30 14:10:48.260 HYPERVISOR: exec_cmd: vm get_status ISP 
+Apr 30 14:10:48.260 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x602467a4 
+Apr 30 14:10:48.260 HYPERVISOR: exec_cmd: vm set_ios ISP C:/Users/tmsil/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Apr 30 14:10:48.260 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP c201.2890.0000 
+Apr 30 14:10:48.260 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+Apr 30 14:10:49.420 HYPERVISOR: exec_cmd: vm get_status ISP 
+Apr 30 14:10:49.420 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Apr 30 14:10:49.420 HYPERVISOR: exec_cmd: vm delete ISP 
+Apr 30 14:10:49.436 VM: VM ISP destroyed.
+Apr 30 14:10:49.436 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 30 14:10:49.936 HYPERVISOR: Stopped.
+Apr 30 14:10:49.936 GENERAL: reset done.

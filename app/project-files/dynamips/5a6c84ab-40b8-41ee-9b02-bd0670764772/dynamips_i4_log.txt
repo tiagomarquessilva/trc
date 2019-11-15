@@ -1,0 +1,27 @@
+Apr 30 17:35:45.748 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 30 17:35:45.748 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 21499.
+Apr 30 17:35:46.220 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 30 17:35:46.221 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips 
+Apr 30 17:35:46.221 GENERAL: working_dir=C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips
+Apr 30 17:35:46.222 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips\a83675ec-b5a7-4150-af16-8bcee1db6852 
+Apr 30 17:35:46.223 GENERAL: working_dir=C:\Users\tmsil\Desktop\Universidade\1º Ano\Tecnologias de Redes de Computadores\miniProjeto\miniProjeto_87913\project-files\dynamips\a83675ec-b5a7-4150-af16-8bcee1db6852
+Apr 30 17:35:46.224 HYPERVISOR: exec_cmd: vm create Eng 3 c3725 
+Apr 30 17:35:46.239 VM: VM Eng created.
+Apr 30 17:35:46.240 HYPERVISOR: exec_cmd: vm set_con_tcp_port Eng 5003 
+Apr 30 17:35:46.240 HYPERVISOR: exec_cmd: c3725 get_mac_addr Eng 
+Apr 30 17:35:46.241 HYPERVISOR: exec_cmd: vm set_disk0 Eng 0 
+Apr 30 17:35:46.242 HYPERVISOR: exec_cmd: vm set_exec_area Eng 64 
+Apr 30 17:35:46.243 HYPERVISOR: exec_cmd: vm get_status Eng 
+Apr 30 17:35:46.243 HYPERVISOR: exec_cmd: vm set_idle_pc Eng 0x602467a4 
+Apr 30 17:35:46.245 HYPERVISOR: exec_cmd: vm set_ios Eng C:/Users/tmsil/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Apr 30 17:35:46.246 HYPERVISOR: exec_cmd: c3725 set_mac_addr Eng c203.285c.0000 
+Apr 30 17:35:46.247 HYPERVISOR: exec_cmd: vm set_nvram Eng 256 
+Apr 30 17:35:46.248 HYPERVISOR: exec_cmd: vm get_status Eng 
+Apr 30 17:35:46.248 HYPERVISOR: exec_cmd: vm slot_add_binding Eng 1 0 NM-1FE-TX 
+Apr 30 17:35:46.278 HYPERVISOR: exec_cmd: vm get_status Eng 
+Apr 30 17:35:46.293 HYPERVISOR: exec_cmd: vm extract_config Eng 
+Apr 30 17:35:46.293 HYPERVISOR: exec_cmd: vm delete Eng 
+Apr 30 17:35:46.293 VM: VM Eng destroyed.
+Apr 30 17:35:46.293 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 30 17:35:46.721 HYPERVISOR: Stopped.
+Apr 30 17:35:46.721 GENERAL: reset done.
